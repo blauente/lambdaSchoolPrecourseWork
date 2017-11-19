@@ -1,0 +1,4 @@
+function addItemToArray(arr, item) {
+  arr.push(item);
+  return arr;
+}
