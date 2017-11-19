@@ -1,0 +1,3 @@
+function returnFirst(arr) {
+  return arr[0];
+}
