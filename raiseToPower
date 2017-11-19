@@ -1,0 +1,3 @@
+function raiseToPower(num, exponent) {
+  return num ** exponent;
+}
