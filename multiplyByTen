@@ -1,0 +1,3 @@
+function multiplyByTen(num) {
+ return 10 * num;
+}
