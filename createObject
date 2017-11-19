@@ -1,0 +1,9 @@
+function createObject() {
+  const exampleObj = {
+    name: 'Dude',
+    age: 47,
+    hobbies: ['stamp collecting', 'seeing movies', 'jogging']
+  };
+  
+  return exampleObj;
+}
