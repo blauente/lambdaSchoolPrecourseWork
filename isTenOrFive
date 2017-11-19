@@ -1,0 +1,7 @@
+function isTenOrFive(num) {
+  if (num === 5 || num === 10) {
+    return true;
+  } else {
+    return false;
+  }
+}
