@@ -1,0 +1,3 @@
+function invokeMethod(object, method) {
+  object[method]();
+}
