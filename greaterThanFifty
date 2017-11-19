@@ -1,0 +1,7 @@
+function greaterThanFifty(num) {
+  if (num > 50) {
+    return true;
+  } else {
+    return false;
+  }
+}
