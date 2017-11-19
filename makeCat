@@ -1,0 +1,10 @@
+function makeCat(name) {
+  const cat = {
+    name: name,
+    age: 5,
+    meow: function(){
+      return (`${this.name} meowed!`);
+    }
+  };
+  return cat;
+}
