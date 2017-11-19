@@ -1,0 +1,3 @@
+function computeCircleArea(radius) {
+  return Math.round(Math.PI * (radius ** 2))
+}
