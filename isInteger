@@ -1,0 +1,7 @@
+function isInteger(num) {
+  if (num === parseInt(num)) {
+    return true;
+  } else {
+    return false;
+  }
+}
