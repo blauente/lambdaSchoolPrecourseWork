@@ -1,0 +1,15 @@
+function largestNumber(numbers) {
+  let x = 0;
+  let largest = 0;
+  
+  for (i = 0; i < numbers.length; i++) {
+    x = numbers[i];
+    if (largest > x) {
+      largest = largest;
+    } else {
+      largest = x;
+    }
+  }
+  
+  return largest;
+}
