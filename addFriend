@@ -1,0 +1,4 @@
+function addFriend(user, newFriend) {
+  user.friends.push(newFriend);
+  return user;
+}
