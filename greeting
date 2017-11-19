@@ -1,0 +1,11 @@
+function greeting(language) {
+  if (language === 'German') {
+    return 'Guten Tag!';
+  } else if (language === 'Mandarin Chinese') {
+    return 'Ni Hao!';
+  } else if (language === 'Spanish') {
+    return 'Hola!';
+  } else {
+    return 'Hello!';
+  }
+}
