@@ -1,0 +1,9 @@
+function stringOfEvens(num) {
+let evenString = '0'; 
+  for (i = 1; i <= num; i++) {
+    if (i % 2 === 0) {
+      evenString += i.toString();
+    }
+  }
+  return evenString;
+}
