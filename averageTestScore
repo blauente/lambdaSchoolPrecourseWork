@@ -1,0 +1,7 @@
+function averageTestScore(testScores) {
+  let sum = 0;
+  for (i = 0; i < testScores.length; i++) {
+    sum += testScores[i];
+  }
+  return sum / testScores.length;
+}
