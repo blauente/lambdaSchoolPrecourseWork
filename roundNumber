@@ -1,0 +1,3 @@
+function roundNumber(num) {
+  return Math.round(num);
+}
