@@ -1,0 +1,6 @@
+function addProperty(object, property) {
+  
+  object[`${property}`] = null;
+   
+  return object;
+}
