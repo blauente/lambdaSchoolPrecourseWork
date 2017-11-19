@@ -1,0 +1,3 @@
+function addExclamationPoint(str) {
+  return str + '!';
+}
