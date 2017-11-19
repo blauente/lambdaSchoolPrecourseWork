@@ -1,0 +1,7 @@
+function lessThanNinety(num) {
+  if (num < 90) {
+    return true;
+  } else {
+    return false;
+  }
+}
