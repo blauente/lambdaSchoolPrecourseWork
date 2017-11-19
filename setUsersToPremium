@@ -1,0 +1,6 @@
+function setUsersToPremium(users) {
+  for (let i = 0; i < users.length; i++) {
+    users[i].isPremium = true;
+  }
+  return users;
+}
