@@ -1,0 +1,13 @@
+function wordsToSentence(words) {
+  sentence = '';
+  
+  for (i = 0; i < words.length; i++) {
+    if (i < words.length - 1) {
+    sentence += words[i];
+    sentence += ' ';
+    } else {
+      sentence += words[i];
+    }
+  }
+  return sentence;
+}
