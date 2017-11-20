@@ -1,0 +1,6 @@
+function map(arr, cb) {
+  const mappedArray = arr.map(function(num) {
+    return cb(num);
+  });
+  return (mappedArray);
+}
